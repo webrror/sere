@@ -5,8 +5,8 @@ This Rust package provides a simple file transfer utility using the [`iroh`](htt
 > [!CAUTION] 
 > This currently uses memory for the transfer, so it is not suitable for large files.
 
-> [!NOTE] 
-> Version with file system support is WIP
+<!-- > [!NOTE] 
+> Version with file system support is WIP -->
 
 ## Features
 - Send files to a peer and generate a ticket for others to fetch the file.
@@ -47,3 +47,11 @@ To receive a file, use the following command:
 ```bash
 cargo run receive [TICKET] [FILE_PATH]
 ```
+
+## References
+
+- [iroh](https://github.com/n0-computer/iroh)
+- [iroh-blobs](https://github.com/n0-computer/iroh-blobs)
+- [Unlimited, free file transfer, no account required [Youtube]](https://youtu.be/jl4cAkRTMT8?si=dtEXhC2fiqr7Rbsn)
+- [sendme](https://www.iroh.computer/sendme)
+- [Simple peer-to-peer file transfer tool](https://www.iroh.computer/docs/quickstart)
