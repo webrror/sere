@@ -1,5 +1,14 @@
 # File Transfer with Iroh Blobs
 
+<p>
+<!--     <img alt="Actions" src="https://github.com/webrror/sere/actions/workflows/rust.yml/badge.svg"> -->
+<!--     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/webrror/sere"> -->
+    <img alt="Language" src="https://img.shields.io/badge/Rust-8A2BE2">
+    <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues-raw/webrror/sere?color=8A2BE2">
+    <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/webrror/sere?color=8A2BE2">
+</p>
+
+
 This Rust package provides a simple file transfer utility using the [`iroh`](https://github.com/n0-computer/iroh) and [`iroh_blobs`](https://github.com/n0-computer/iroh-blobs) libraries. You can use this tool to send and receive files using a peer-to-peer network setup.
 
 > [!CAUTION] 
